@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Ubuntu:wght@700&display=swap');
+:root {
+  --purple: rgb(174,157,218);
+  --sky-blue: rgb(230,239,255);
+  --dark-sky-blue: rgb(201,220,255);
+  --dark-blue: rgb(33, 53, 97);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-purple {
+  color: var(--purple) !important;
+}
+.text-sky-blue {
+  color: var(--sky-blue) !important;
+}
+.text-dark-blue {
+  color: var(--dark-blue) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-purple {
+  background-color: var(--purple) !important;
+}
+.bg-sky-blue {
+  background-color: var(--sky-blue) !important;
+}
+.bg-dark-blue {
+  background-color: var(--dark-blue) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-dark-sky-blue {
+  background-color: var(--dark-sky-blue) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.border-purple {
+  border-color: var(--purple) !important;
+}
+.border-sky-blue {
+  border-color: var(--sky-blue) !important;
+}
+.border-dark-blue {
+  border-color: var(--dark-blue) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.curved-right {
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+.logo-font {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.w-90{
+    width: 90%;
 }
